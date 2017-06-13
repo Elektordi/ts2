@@ -22,6 +22,12 @@ le logiciel.
 ## Installation
 * Versions officielles:
     - Windows 64 bits: installer à partir de l'installateur et lancer ts2.exe.
+    - Linux (Ubuntu/Debian): Commandes à lancer dans un terminal, dans le dossier d'install voulu
+        ```
+        sudo apt-get install git python3 python3-simplejson python3-pyqt5
+        git clone https://github.com/ts2/ts2.git
+        ./start-ts2.py
+        ```
     - Autres plateformes: voir installation depuis les sources.
 * Installation à partir des sources:
     - Télécharger et installer Python v3 ou supérieur depuis [www.python.org](http://www.python.org).

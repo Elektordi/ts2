@@ -12,7 +12,7 @@ Required
 
 .. code-block:: sh
 
-    sudo apt-get install git python3 python-pyqt5 python-pyqt5.*
+    sudo apt-get install git python3 python3-simplejson python3-pyqt5
 
 
 **Windows**

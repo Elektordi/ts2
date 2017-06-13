@@ -27,6 +27,12 @@ New simulations can be created with the editor provided with ts2.
 ## Installation
 * Released versions:
     - Windows 64 bits: use provided installer and run ts2.exe.
+    - Linux (Ubuntu/Debian): Run those commands in the target install folder
+        ```
+        sudo apt-get install git python3 python3-simplejson python3-pyqt5
+        git clone https://github.com/ts2/ts2.git
+        ./start-ts2.py
+        ```
     - Other platforms: see source installation.
 * Source installation:
     - Download and install Python v3 or above at [www.python.org](http://www.python.org).
