@@ -11,6 +11,7 @@ import json
 import ts2
 from ts2.utils import settings
 from ts2.gui import widgets
+from ts2.scenery.signals import signalitem
 
 translate = QtWidgets.qApp.translate
 
@@ -182,6 +183,8 @@ class OpenDialog(QtWidgets.QDialog):
                                             zipArchive.read(fileName),
                                             compress_type=zipfile.ZIP_BZIP2)
 
+        signalitem.reloadSignalLibrary()
+        
         QtWidgets.qApp.restoreOverrideCursor()
 
         self.statusBar.showBusy(False)

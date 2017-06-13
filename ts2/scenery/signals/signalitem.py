@@ -916,6 +916,10 @@ class SignalLibrary:
 
 signalLibrary = SignalLibrary.createSignalLibrary()
 
+def reloadSignalLibrary():
+    global signalLibrary
+    signalLibrary = SignalLibrary.createSignalLibrary()
+
 
 def condition(cls):
     """Decorator to register a class as a condition.
